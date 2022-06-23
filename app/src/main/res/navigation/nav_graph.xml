@@ -9,5 +9,13 @@
         android:id="@+id/decksFragment"
         android:name="com.barge.bargedh.ui.decks.DecksFragment"
         android:label="fragment_decks"
-        tools:layout="@layout/fragment_decks" />
+        tools:layout="@layout/fragment_decks" >
+        <action
+            android:id="@+id/action_decksFragment_to_deckCreationFragment"
+            app:destination="@id/deckCreationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deckCreationFragment"
+        android:name="com.barge.bargedh.ui.decks.DeckCreationFragment"
+        android:label="DeckCreationFragment" />
 </navigation>

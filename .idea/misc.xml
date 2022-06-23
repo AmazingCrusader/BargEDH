@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/add_48px.xml" value="0.15" />
+        <entry key="app/src/main/res/drawable/add_fill0_wght400_grad0_opsz48.xml" value="0.15" />
         <entry key="app/src/main/res/drawable/custom_gradient_left.xml" value="0.148" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.126" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/fragment_decks.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_deck_creation.xml" value="0.1950476383817369" />
+        <entry key="app/src/main/res/layout/fragment_decks.xml" value="0.1352142333984375" />
         <entry key="app/src/main/res/layout/fragment_life_counter.xml" value="0.19882246376811594" />
         <entry key="app/src/main/res/layout/item_deck.xml" value="0.2544692993164062" />
       </map>

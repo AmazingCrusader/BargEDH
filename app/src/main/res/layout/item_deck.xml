@@ -11,9 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         app:cardElevation="10dp"
-        app:cardCornerRadius="20dp"
+        app:cardCornerRadius="18dp"
         app:cardBackgroundColor="@color/white"
-        app:cardMaxElevation="12dp"
+        app:cardMaxElevation="10dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
         card_view:layout_constraintTop_toTopOf="parent"
@@ -30,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                card_view:layout_constraintGuide_percent="0.65" />
+                card_view:layout_constraintGuide_percent="0.45" />
 
             <FrameLayout
                 android:id="@+id/deck_cardview_image_container"
@@ -42,11 +42,13 @@
                     android:id="@+id/deck_cardview_background"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:scaleType="fitStart"
-                    android:src="@drawable/jodah_archmage_eternal__s201__cn198_lnen__art"
+                    android:scaleType="centerCrop"
+                    android:paddingTop="70dp"
+                    android:paddingEnd="140dp"
+                    android:src="@drawable/jodah__archmage_eternalart1"
                     android:contentDescription="@string/deck_content_description" />
                 <View
-                    android:layout_width="50dp"
+                    android:layout_width="140dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="start"
                     android:background="@drawable/custom_gradient_left"/>

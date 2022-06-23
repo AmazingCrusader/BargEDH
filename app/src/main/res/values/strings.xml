@@ -4,4 +4,41 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="default_deck_name">Jodah</string>
     <string name="deck_content_description">Background</string>
+    <string name="fab_description">Add deck</string>
+    <string name="deck_name_text">Deck Name</string>
+    <string name="deck_name_hint">Choose a name for your deck..</string>
+    <string name="first_commander_text">Commander</string>
+    <string name="first_commander_hint">Choose a commander…</string>
+    <string name="second_commander_question_text">Partner Commander / Background</string>
+    <string name="companion_hint">Choose a companion…</string>
+    <string name="companion_text">Companion</string>
+    <string name="main_flair_text">Main Flair</string>
+    <string name="secondary_flair_text">Secondary Flair</string>
+
+    <string-array name="flairs_array">
+        <item>Aristocrat</item>
+        <item>Combo</item>
+        <item>Mill</item>
+        <item>Stomp</item>
+        <item>Token</item>
+        <item>Control</item>
+        <item>Spellslinger</item>
+        <item>Big Mana</item>
+        <item>Artifacts</item>
+        <item>Tribal</item>
+        <item>Cascade</item>
+        <item>Politics</item>
+        <item>Reanimator</item>
+        <item>Group Hug</item>
+        <item>Group Slug</item>
+        <item>Lifegain</item>
+        <item>Equipment</item>
+        <item>Voltron</item>
+        <item>Counters</item>
+        <item>Landfall</item>
+        <item>Enchantress</item>
+        <item>Infect</item>
+        <item>Madness</item>
+        <item>Cycling</item>
+    </string-array>
 </resources>
