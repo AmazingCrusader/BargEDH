@@ -14,6 +14,9 @@
     <string name="companion_text">Companion</string>
     <string name="main_flair_text">Main Flair</string>
     <string name="secondary_flair_text">Secondary Flair</string>
+    <string name="decrease_button_text">-</string>
+    <string name="increase_button_text">+</string>
+    <string name="life_counter_text">40</string>
 
     <string-array name="flairs_array">
         <item>Aristocrat</item>

@@ -18,14 +18,14 @@
 
         <include
             android:id="@+id/first_player_layout"
-            layout="@layout/single_player_life_counter"
+            layout="@layout/single_player_life_counter_left"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="50"/>
 
         <include
             android:id="@+id/second_player_layout"
-            layout="@layout/single_player_life_counter"
+            layout="@layout/single_player_life_counter_right"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="50"/>
@@ -43,14 +43,14 @@
 
         <include
             android:id="@+id/third_player_layout"
-            layout="@layout/single_player_life_counter"
+            layout="@layout/single_player_life_counter_left"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="50"/>
 
         <include
             android:id="@+id/fourth_player_layout"
-            layout="@layout/single_player_life_counter"
+            layout="@layout/single_player_life_counter_right"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="50"/>
