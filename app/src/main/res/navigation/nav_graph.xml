@@ -11,11 +11,15 @@
         android:label="fragment_decks"
         tools:layout="@layout/fragment_decks" >
         <action
-            android:id="@+id/action_decksFragment_to_deckCreationFragment"
-            app:destination="@id/deckCreationFragment" />
+            android:id="@+id/action_decksFragment_to_lifeCounterFragment"
+            app:destination="@id/lifeCounterFragment" />
     </fragment>
     <fragment
         android:id="@+id/deckCreationFragment"
         android:name="com.barge.bargedh.ui.decks.DeckCreationFragment"
         android:label="DeckCreationFragment" />
+    <fragment
+        android:id="@+id/lifeCounterFragment"
+        android:name="com.barge.bargedh.ui.lifecounter.LifeCounterFragment"
+        android:label="LifeCounterFragment" />
 </navigation>

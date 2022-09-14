@@ -21,7 +21,7 @@ class DecksFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_decks, container, false)
         return binding.root
@@ -32,7 +32,8 @@ class DecksFragment : Fragment() {
 
         binding.addDeckFab.setOnClickListener {
             NavHostFragment.findNavController(this)
-                .navigate(R.id.action_decksFragment_to_deckCreationFragment)
+                //.navigate(R.id.action_decksFragment_to_deckCreationFragment)
+                .navigate(R.id.action_decksFragment_to_lifeCounterFragment)
         }
     }
 }
